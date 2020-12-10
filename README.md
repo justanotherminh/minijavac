@@ -1,5 +1,5 @@
 # minijavac
-A compiler for a subset of Java on ARM 32-bit. This Java subset has been around for a long time, and I've seen at least 5 different universities using this grammar (with some very small variations). This compiler can compile any Java program that can be parsed by the grammar below, with the exception of programs with arrays with more than 2 dimensions. It would not be a terribly difficult upgrade to support arrays with arbitrary number of dimensions, but I have no incentive to do so.
+A compiler for a subset of Java on ARM 32-bit. This Java subset has been around for a long time, and I've seen at least 5 different universities using this grammar (with some very small variations) for their compilers class. This compiler can compile any Java program that can be parsed by the grammar below, with the exception of programs with arrays with more than 2 dimensions. It would not be a terribly difficult upgrade to support arrays with arbitrary number of dimensions, but I have no incentive to do so.
 
 Grammar:
 ```
